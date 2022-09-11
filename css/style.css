@@ -8,6 +8,8 @@ body {
     
 }
 
+/* styles for navbar*/
+
 .navbar {
     padding: 24px 0px;     
     border-bottom: none !important;
@@ -30,12 +32,12 @@ body {
     background: none !important;
 }
 
-/* .navbar-toggle
+.navbar-toggle
 {
     border: 1px solid white !important;
     color: white !important;
     transition: all 0.5s ease-in;
-} */
+}
 
 .icon-bar
 {
@@ -63,3 +65,5 @@ body {
 .navbar-inverse{
     background-color: transparent !important;
 }  
+
+/* end *of navbar/
