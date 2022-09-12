@@ -120,7 +120,7 @@ body
     border-top-left-radius: 15px;
     transition: all 0.5s ease-in;
     margin-right: -6px;
-    
+    text-decoration: none;
 }
 
 .btn1:hover
@@ -144,6 +144,44 @@ body
     border-bottom-right-radius: 15px;
     transition: all 0.5s ease-in;
     margin-right:10px;
+    text-decoration: none;
 }
 
+.btn2:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+    
+}
+
+.social-networks a.fa
+{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.5s ease-in;
+    
+}
+
+.social-networks a.fa:hover
+{
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: white;
+    border: 1px solid deepskyblue;
+    
+}
+
+.slider .text, .slider .typed-cursor
+{
+    display: inline;
+    font-size: 50px;
+    text-transform: uppercase;
+}
 
