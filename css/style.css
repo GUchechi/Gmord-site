@@ -6,6 +6,7 @@
 body
 {
     overflow-x: hidden;
+    height: 1000px;
     
 }
 
@@ -70,6 +71,12 @@ body
 
 /* end *of navbar/
 
+/* Sticky navigation */
+.secondary {
+    background-color: #34495e !important;
+}
+
+
 /* Slider */
 
 .slider {
@@ -96,7 +103,7 @@ body
 
 .icons .fa
 {
-    font-size: 35px;
+    font-size: 55px;
     margin-right: 7px;
     
 }
@@ -166,7 +173,7 @@ body
     border-radius: 25px;
     margin-right: 2px;
     transition: all 0.5s ease-in;
-    
+    text-decoration: none;
 }
 
 .social-networks a.fa:hover
