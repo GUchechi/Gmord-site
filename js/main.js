@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
 
     $('.slider').ripples({
         dropRadius: 15,
-        perturbance: 0.02,
+        perturbance: 0.01,
       });
       // End of Ripple effect
 

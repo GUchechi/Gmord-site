@@ -69,9 +69,8 @@ body
     background-color: transparent !important;
 }  
 
-/* end *of navbar/
 
-/* Sticky navigation */
+
 .secondary {
     background-color: #34495e !important;
 }
@@ -274,4 +273,115 @@ body
             Slider Ends
 =========================================*/
 
+/* Service Styles */
 
+
+.service-area
+{
+    margin-top: 30px;
+}
+
+.service-area p
+{
+   margin-bottom: -5px;
+}
+
+
+.service-wrap {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+    margin-top: 20px;
+    
+}
+
+.service-wrap::before, .service-wrap::after {
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #34495e;    
+    
+}
+
+.service-wrap::before{
+    top: -37px;
+    left: 100%;  
+    
+}
+
+.service-wrap:hover:before{    
+    left: -27px;
+    opacity: 1;
+    
+}
+
+
+.service-wrap::after{
+     right: 100%;
+     bottom: -37px;
+    
+}
+
+.service-wrap:hover:after{
+    right: -27px;
+    opacity: 1;
+   
+}
+
+.service-wrap:hover{
+    color: white;    
+}
+
+.service-wrap:h3{
+    color: white;    
+}
+
+
+.service-wrap:hover h3{
+    color: white;    
+}
+
+
+.service-wrap:hover h3:after{
+    background-color: white;    
+}
+
+.service-icon i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    
+}
+
+
+.service-wrap:hover .service-icon i{
+    
+    transform:rotate(360deg);
+}
+
+.service-wrap h3
+{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+    
+}
+
+.service-wrap p
+{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* SERVICE SECTION END */
+
+/* TEAM START */
