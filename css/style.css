@@ -483,11 +483,11 @@ h4.team-member-designation
     -webkit-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
     -moz-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
     -o-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
-    transition: all .4s ease-in
-    -webkit-transition: all .4s ease-in
-    -moz-transition: all .4s ease-in
-    -o-transition: all .4s ease-in
-    -ms-transition: all .4s ease-in
+    transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    -ms-transition: all .4s ease-in;
  
 }
 
