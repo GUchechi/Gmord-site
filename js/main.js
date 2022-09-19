@@ -3,7 +3,7 @@ jQuery(document).ready(function() {
     "use strict";
 
     $('.slider').ripples({
-        dropRadius: 15,
+        dropRadius: 14,
         perturbance: 0.01,
       });
       // End of Ripple effect
