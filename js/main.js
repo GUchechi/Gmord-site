@@ -51,10 +51,12 @@ jQuery(document).ready(function() {
     
            items:3
         } 
-      }
-    
-    
+      }    
     
 });
-     
+    $('.counter').counterUp({
+      delay: 10,
+      time: 5000
+    });
+
 });
