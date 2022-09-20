@@ -511,3 +511,43 @@ h4.team-member-designation
     
     
 }
+
+/*=======================================
+        Counter stat style starts
+=========================================*/
+
+
+.stat
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(..//img/cover-bg-1.jpg);
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    color: white;
+    background-attachment: fixed;
+    margin-top: 100px;
+    
+}
+
+
+.stat i
+{
+    font-size: 85px;
+}
+ 
+
+
+.stat-items h2
+{
+    font-weight: bolder;
+    font-size: 42px;
+    color: deepskyblue;
+}
+
+
+
+.stat p
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
