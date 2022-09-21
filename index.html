@@ -11,6 +11,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="img/favicon.ico">
     <title>Document</title>
+    <!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('y4zz9yhc2gc9');
+    </script>
+    <!-- End of Async Drift Code -->
 </head>
 <body>
     <!-- NavBar Starts -->
@@ -23,13 +51,13 @@
           </div>
           <div class="nav collapse navbar-collapse"  id="navbarSupportedContent">
             <ul class="nav navbar-nav ms-auto mb-2 mb-lg-0 ">
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#slider">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services">Our Services</a></li>
               <!-- <li class="nav-item"><a class="nav-link" href="#">Works</a></li> -->
                <!-- <li class="nav-item"><a class="nav-link" href="#">Team</a></li> -->
-              <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Carrier</a></li>
-              <li class="nav-item location"><a class="nav-link" href="#">Our Location</a></li>
+              <li class="nav-item"><a class="nav-link" href="#video">About us</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="#">Carrier</a></li> -->
+              <li class="nav-item location"><a class="nav-link" href="#map">Our Location</a></li>
             </ul>
           </div>
         </div>
@@ -245,7 +273,7 @@
 
         <!-- Map -->
 
-        <section class="maps">
+        <section class="maps" id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126081.19719599774!2d7.4678272!3d9.060352000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1663718827644!5m2!1sen!2sng" 
                 width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>

@@ -14,7 +14,7 @@ body
 /* styles for navbar*/
 
 .navbar {
-    padding: 24px 0px;     
+    padding: 34px 0px;     
     border-bottom: none !important;
     transition: all 0.5s ease-in-out;
 }
