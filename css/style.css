@@ -552,3 +552,78 @@ h4.team-member-designation
     letter-spacing: 1px;
 }
 
+
+/*=======================================
+        Map area style starts
+=========================================*/
+
+.maps
+{
+    margin-top: 20px;
+}
+
+
+/*=======================================
+        Map area style Ends
+=========================================*/
+
+
+/*=======================================
+        Footer area style starts
+=========================================*/
+
+
+.footer
+{
+    background: url(..//img/Black-Wood-Footer-Background.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 145px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+    color: white;
+   
+}
+
+.social-icon a
+{
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+    
+}
+
+
+.footer .fa
+{
+    font-size: 30px;
+    color: deepskyblue;
+    width: 80px;
+    height: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: white;
+    line-height: 2;
+    border: 10px solid #34495e;
+    text-align: center;
+    transition: all 0.7s ease-in;
+    
+    
+}
+
+.social-icon a:hover .fa
+{
+    
+    border: 10px solid white;
+    transform: rotate(360deg);
+  
+}
+
+.bordernow
+{
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
